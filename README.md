@@ -12,15 +12,17 @@ ABOUT THE PROJECT :- There are 2 projects.
    
 
 THE REQUIRED TOOLS :-
-    * requests :-
+   
+   * requests :- The requests module is not a built in module, This module needs to be downloaded. This module is used to make requests to the browser during runtime.
     
             pip install requests
         
-   * beautifullsoup :-
+   * beautifulsoup :- Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and 
+                      modifying the parse tree. It commonly saves programmers hours or days of work.
+                      
+            pip install beautifulsoup
         
-            pip install beautifullsoup
         
-        
-   * pprint
+   * pprint :- Short for Pretty Printer, pprint is a native Python library that allows you to customize the formatting of your output.
    
             pip install pprint
