@@ -26,3 +26,14 @@ THE REQUIRED TOOLS :-
    * pprint :- Short for Pretty Printer, pprint is a native Python library that allows you to customize the formatting of your output.
    
             pip install pprint
+            
+   
+WHAT YOU CAN AND WHAT YOU CANT :-
+   
+   * Most of the websites do not want their websites to be scraped, hence they give us a text file called robots.txt which gives us the information about what we can   
+     scrape and what we cant.
+     
+   * For ex:- https://news.ycombinator.com/robots.txt this link here takes us to the text file page which has the info about what we can   
+     scrape and what we cant from hackernews website.
+     
+   * Hence it is always better to check robots.txt before scraping any websites so that we can scrape ethically.
