@@ -37,3 +37,5 @@ WHAT YOU CAN AND WHAT YOU CANT :-
      scrape and what we cant from hackernews website.
      
    * Hence it is always better to check robots.txt before scraping any websites so that we can scrape ethically.
+
+API V/S WEB SCRAPING :-
