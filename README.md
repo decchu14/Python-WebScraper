@@ -39,3 +39,13 @@ WHAT YOU CAN AND WHAT YOU CANT :-
    * Hence it is always better to check robots.txt before scraping any websites so that we can scrape ethically.
 
 API V/S WEB SCRAPING :-
+    *  There are 2 ways of fetching data from websites, they are using API and web scraping.
+    *  Many websites have their own API which gives us the access to their websites data, however there are some restrictions.
+    *  some of the restrictions are you wont get access to all their data and there will be a rate limit.
+    *  There are 3 types of API's :-
+           
+           -> Free API for example Password API.
+            
+           -> Permissive API for example Twitter API.
+           
+           -> Paid API for example Google Pay API.
