@@ -55,3 +55,12 @@ API V/S WEB SCRAPING :-
         -> Paid API for example Google Maps API.
 
    * If the webites does not have API then we can scrape that website to fetch data.
+   
+   * There are many web scraping libraries in python. some of them are Beautifulsoup, scrapy, selenium etc.
+   
+   * In both the projects we will be using beautifulsoup library.
+   
+   * For more information about webscraping libraries please read this Tasty Yummy article :) 
+     https://elitedatascience.com/python-web-scraping-libraries 
+
+    
