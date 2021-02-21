@@ -30,8 +30,7 @@ THE REQUIRED TOOLS :-
    
 WHAT YOU CAN AND WHAT YOU CANT :-
    
-   * Most of the websites do not want their websites to be scraped, hence they give us a text file called robots.txt which gives us the information about what we can   
-     scrape and what we cant.
+   * Most of the websites do not want their websites to be scraped, hence they give us a text file called robots.txt which gives us the information about what we can  scrape and what we cant.
      
    * For ex:- https://news.ycombinator.com/robots.txt this link here takes us to the text file page which has the info about what we can   
      scrape and what we cant from hackernews website.
