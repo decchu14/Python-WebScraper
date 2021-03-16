@@ -1,7 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
+import pprint
 
 years = ['2019', '2020']
+consistant_orgs = dict()
+
 for y in years:
     res = requests.get(
         "https://summerofcode.withgoogle.com/archive/" + y + "/organizations/")
@@ -21,12 +24,18 @@ for y in years:
         technologies = [j.get_text().strip()
                         for j in tech_soup.select('.organization__tag--technology')]
 
+        # for z in technologies:
+        #     print(z)
+        #     consistant_orgs[org_name].append(z)
+
         if 'python' in technologies:
-            if count == 10:
+
+            if count == 2:
                 break
             else:
                 count += 1
-
+                dict_1 = {org_name: technologies}
+                consistant_orgs.update(dict_1)
                 print(f'{count}. YEAR={y}----NAME: {org_name}')
                 print('TECHNOLOGIES: ', technologies)
                 print('\n')
@@ -34,3 +43,4 @@ for y in years:
         # print(f'\n{total_org}\n')
 
     print('\n')
+    pprint.pprint(consistant_orgs)
