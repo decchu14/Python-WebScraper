@@ -2,8 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import pprint
 
-years = ['2019', '2020']
-consistant_orgs = dict()
+years = ['2020', '2019']
+consistant_orgs = []
+
 
 for y in years:
     res = requests.get(
@@ -32,15 +33,30 @@ for y in years:
 
             if count == 2:
                 break
+            elif y == '2020':
+                count += 1
+                dict_1 = {org_name: technologies}
+                consistant_orgs.append(dict_1.copy())
+                # print(f'{count}. YEAR={y}----NAME: {org_name}')
+                # print('TECHNOLOGIES: ', technologies)
+                # print('\n')
+            # else:
+            #
+            #     dict_1 = {org_name: technologies}
             else:
                 count += 1
                 dict_1 = {org_name: technologies}
-                consistant_orgs.update(dict_1)
-                print(f'{count}. YEAR={y}----NAME: {org_name}')
-                print('TECHNOLOGIES: ', technologies)
-                print('\n')
+                print(dict_1)
+                # if dict_1 in consistant_orgs:
 
-        # print(f'\n{total_org}\n')
+            #     print(dict_1[0].keys())
+            #     if key,value in dict_1.items():
+            #        if key in list(consistant_orgs)
+            #         consistant_orgs.append(dict_1.copy())
 
-    print('\n')
-    pprint.pprint(consistant_orgs)
+                # print(f'\n{total_org}\n')
+
+
+pprint.pprint(consistant_orgs)
+
+print('\n')
