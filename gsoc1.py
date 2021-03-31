@@ -57,10 +57,16 @@ with open('gsoc.txt', mode='a') as gsoc_file:
             # looping through the org technologies to check for python
             # if there then writing the org name to the gsoc text file
             if 'python' in technologies:
-                gsoc1_dict = {y: technologies}
-                gsoc_dict = {all_org_names[i].get_text(): gsoc1_dict}
-                gsoc_file.write(str(gsoc_dict))
-                gsoc_file.write('\n')
+                if y == '2020':
+                    gsoc1_dict = {y: technologies}
+                    gsoc_dict = {all_org_names[i].get_text(): gsoc1_dict}
+                    main_list.append(gsoc_dict.copy())
+                # elif all_org_names[i].get_text() in main_list.keys:
+
                 count += 1
 
         print(count)
+        gsoc_file.write(str(main_list))
+        # gsoc_file.write('\n')
+        for i in range(count):
+            print(main_list[i][0])
