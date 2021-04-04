@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pprint
 
 # years whose organizations details we want to fetch
-years = ['2020']
+years = ['2020', '2019']
 
 # this list is used to store the org names who and years in which they participated
 # along with technologies they used.
@@ -14,7 +14,7 @@ with open('gsoc.txt', mode='a') as gsoc_file:
 
     # looping through each year given in the years list above
     for y in years:
-
+        z = 0
         # making a requests to the gsoc archive page to fetch the organizations details and storing
         # the result in the variable called "res".
         res = requests.get(
@@ -61,12 +61,21 @@ with open('gsoc.txt', mode='a') as gsoc_file:
                     gsoc1_dict = {y: technologies}
                     gsoc_dict = {all_org_names[i].get_text(): gsoc1_dict}
                     main_list.append(gsoc_dict.copy())
-                # elif all_org_names[i].get_text() in main_list.keys:
+                elif all_org_names[i].get_text() in key_list:
+                    gsoc1_dict = {y: technologies}
+                    print(main_list[i])
+                    print(all_org_names[i].get_text())
+                    main_list[i][all_org_names[i].get_text()].update(
+                        gsoc1_dict)
+                    gsoc_file.write(str(main_list))
 
-                count += 1
+        if y == '2020':
+            key_list = [list(d)[0] for d in main_list]
+            print(key_list)
+
+        count += 1
 
         print(count)
-        gsoc_file.write(str(main_list))
-        # gsoc_file.write('\n')
-        for i in range(count):
-            print(main_list[i][0])
+        # print(main_list[0])
+    gsoc_file.write(str(main_list))
+    # gsoc_file.write('\n')
