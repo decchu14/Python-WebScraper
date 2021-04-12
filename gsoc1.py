@@ -8,6 +8,7 @@ years = ['2020', '2019']
 # this list is used to store the org names who and years in which they participated
 # along with technologies they used.
 main_list = []
+count = 0
 
 # opening a text file to write a data
 with open('gsoc.txt', mode='a') as gsoc_file:
@@ -33,8 +34,8 @@ with open('gsoc.txt', mode='a') as gsoc_file:
 
         # length of the list means total number of orgs is calculated
         total_org = len(all_org_names)
-        print(total_org)
-        count = 0
+        # print(total_org)
+        # count = 0
         # looping through each org page to check whether they use python or no
         for i in range(total_org):
 
@@ -63,19 +64,18 @@ with open('gsoc.txt', mode='a') as gsoc_file:
                     main_list.append(gsoc_dict.copy())
                 elif all_org_names[i].get_text() in key_list:
                     gsoc1_dict = {y: technologies}
-                    print(main_list[i])
-                    print(all_org_names[i].get_text())
-                    main_list[i][all_org_names[i].get_text()].update(
+
+                    indx = key_list.index(all_org_names[i].get_text())
+                    main_list[indx][all_org_names[i].get_text()].update(
                         gsoc1_dict)
-                    gsoc_file.write(str(main_list))
+                    # gsoc_file.write(str(main_list))
 
         if y == '2020':
             key_list = [list(d)[0] for d in main_list]
-            print(key_list)
 
+    for z in main_list:
         count += 1
-
-        print(count)
-        # print(main_list[0])
-    gsoc_file.write(str(main_list))
-    # gsoc_file.write('\n')
+        gsoc_file.write(str(z))
+        gsoc_file.write('\n')
+        gsoc_file.write('\n')
+print(count)
