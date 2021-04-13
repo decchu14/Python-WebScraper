@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pprint
 
 # years whose organizations details we want to fetch
-years = ['2020', '2019']
+years = ['2020', '2019', '2018', '2017', '2016']
 
 # this list is used to store the org names who and years in which they participated
 # along with technologies they used.
