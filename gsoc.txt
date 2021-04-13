@@ -4,43 +4,43 @@
 
 {'Academy Software Foundation (ASWF)': {'2020': ['c/c++', 'python']}}
 
-{'AerospaceResearch.net': {'2020': ['python', 'vhdl', 'raspberry pi', 'sqlite', 'c++'], '2019': ['python', 'c/c++', 'vhdl', 'boinc', 'java']}}
+{'AerospaceResearch.net': {'2020': ['python', 'vhdl', 'raspberry pi', 'sqlite', 'c++'], '2019': ['python', 'c/c++', 'vhdl', 'boinc', 'java'], '2018': ['python', 'c/c++', 'vhdl', 'boinc', 'java'], '2017': ['python', 'c/c++', 'vhdl', 'boinc']}}
 
 {'AnitaB.org Open Source': {'2020': ['ios', 'android', 'python', 'javascript']}}
 
 {'AOSSIE': {'2020': ['javascript', 'swift', 'kotlin', 'python']}}
 
-{'Apertium': {'2020': ['c++', 'bash', 'python', 'xml'], '2019': ['c++', 'python', 'xml', 'bash']}}
+{'Apertium': {'2020': ['c++', 'bash', 'python', 'xml'], '2019': ['c++', 'python', 'xml', 'bash'], '2018': ['c++', 'python', 'xml', 'fsts'], '2017': ['c++', 'xml', 'python', 'nlp']}}
 
 {'appleseed': {'2020': ['c++11', 'python', 'opengl']}}
 
-{'ArduPilot': {'2020': ['drones', 'python', 'robotics', 'linux', 'c/c++']}}
+{'ArduPilot': {'2020': ['drones', 'python', 'robotics', 'linux', 'c/c++'], '2018': ['drones', 'python', 'linux', 'c/c++', 'robotics'], '2017': ['c++', 'python', 'embedded', 'rtos', 'ros']}}
 
-{'BeagleBoard.org': {'2020': ['linux', 'tensorflow', 'python', 'javascript', 'opencv'], '2019': ['raspberry pi', 'linux kernel', 'javascript', 'python', 'hardware acceleration']}}
+{'BeagleBoard.org': {'2020': ['linux', 'tensorflow', 'python', 'javascript', 'opencv'], '2019': ['raspberry pi', 'linux kernel', 'javascript', 'python', 'hardware acceleration'], '2016': ['beaglebone', 'javascript', 'python', 'linux', 'c']}}
 
 {'BioGears': {'2020': ['c++11', 'c/c++', 'python', 'cmake']}}
 
-{'Blender Foundation': {'2020': ['c', 'c++', 'python', 'opengl', 'vulkan'], '2019': ['c', 'c++', 'python', 'opengl']}}
+{'Blender Foundation': {'2020': ['c', 'c++', 'python', 'opengl', 'vulkan'], '2019': ['c', 'c++', 'python', 'opengl'], '2018': ['c', 'c++', 'python', 'opengl', 'opencl'], '2017': ['opengl', 'opencl', 'python', 'c', 'c++'], '2016': ['c', 'c++', 'python', 'opengl']}}
 
-{'BRL-CAD': {'2020': ['opencl', 'c/c++', 'python', 'tcl/tk', 'opengl'], '2019': ['c/c++', 'opengl', 'opencl', 'python', 'javascript']}}
+{'BRL-CAD': {'2020': ['opencl', 'c/c++', 'python', 'tcl/tk', 'opengl'], '2019': ['c/c++', 'opengl', 'opencl', 'python', 'javascript'], '2017': ['c/c++', 'opencl', 'python', 'javascript', 'qt'], '2016': ['opencl', 'opengl', 'c/c++', 'python', 'tcl']}}
 
 {'caMicroscope': {'2020': ['javascript', 'python', 'java', 'medical imaging', 'tensorflow']}}
 
-{'Canadian Centre for Computational Genomics': {'2020': ['python', 'r-project', 'javascript', 'react', 'nodejs']}}
+{'Canadian Centre for Computational Genomics': {'2020': ['python', 'r-project', 'javascript', 'react', 'nodejs'], '2018': ['r', 'perl', 'awk', 'bash', 'python']}}
 
 {'Casbin': {'2020': ['go', 'javascript', 'react', 'rust', 'python']}}
 
-{'CCExtractor Development': {'2020': ['c', 'python', 'ml', 'flutter', 'rust'], '2019': ['ai', 'c', 'python', 'cloud', 'javascript']}}
+{'CCExtractor Development': {'2020': ['c', 'python', 'ml', 'flutter', 'rust'], '2019': ['ai', 'c', 'python', 'cloud', 'javascript'], '2018': ['c', 'python', 'arduino', 'node.js', 'c#'], '2017': ['c', 'python', 'raspberry pi', 'linux', 'visual studio']}}
 
 {'Ceph Foundation': {'2020': ['c/c++', 'jenkins', 'python', 'javascript', 'shell script']}}
 
-{'CERN-HSF': {'2020': ['c/c++', 'python', 'data analysis', 'machine learning', 'concurrency'], '2019': ['c/c++', 'python', 'data analysis', 'parallelization', 'machine learning']}}
+{'CERN-HSF': {'2020': ['c/c++', 'python', 'data analysis', 'machine learning', 'concurrency'], '2019': ['c/c++', 'python', 'data analysis', 'parallelization', 'machine learning'], '2018': ['c/c++', 'python', 'data analysis', 'machine learning', 'parallelization'], '2017': ['python', 'c/c++', 'machine learning', 'data analysis', 'parallel algorithms']}}
 
 {'CHAOSS': {'2020': ['python', 'javascript', 'kibana', 'elasticsearch', 'mysql'], '2019': ['python', 'javascript', 'jupyter', 'mysql', 'elasicsearch']}}
 
-{'Chapel': {'2020': ['chapel', 'high performance computing', 'c', 'c++', 'python'], '2019': ['chapel', 'python', 'high performance computing', 'c', 'c++']}}
+{'Chapel': {'2020': ['chapel', 'high performance computing', 'c', 'c++', 'python'], '2019': ['chapel', 'python', 'high performance computing', 'c', 'c++'], '2017': ['chapel', 'python', 'high performance computing', 'c', 'c++'], '2016': ['python', 'chapel', 'c', 'c++', 'high performance computing']}}
 
-{'CloudCV': {'2020': ['python', 'django', 'aws', 'docker', 'docker']}}
+{'CloudCV': {'2020': ['python', 'django', 'aws', 'docker', 'docker'], '2017': ['python', 'django', 'angularjs', 'reactjs', 'deep learning'], '2016': ['python', 'javascript', 'lua', 'caffe', 'torch']}}
 
 {'Creative Commons': {'2020': ['javascript', 'vue.js', 'python', 'django', 'wordpress'], '2019': ['javascript', 'python', 'postgresql', 'wordpress', 'elasticsearch']}}
 
@@ -50,35 +50,35 @@
 
 {'Digital Impact Alliance (DIAL) at UN Foundation': {'2020': ['c++', 'javascript', 'android', 'php', 'python']}}
 
-{'Django Software Foundation': {'2020': ['python', 'django'], '2019': ['python', 'django']}}
+{'Django Software Foundation': {'2020': ['python', 'django'], '2019': ['python', 'django'], '2018': ['python', 'django'], '2017': ['python', 'django'], '2016': ['python', 'django']}}
 
 {'FOSSology': {'2020': ['php', 'javascript', 'c/c++', 'twig', 'python']}}
 
 {'FrameNet Brasil (UFJF)': {'2020': ['php', 'mysql', 'javascript', 'python']}}
 
-{'Free and Open Source Silicon Foundation': {'2020': ['verilog', 'risc-v', 'python', 'c++']}}
+{'Free and Open Source Silicon Foundation': {'2020': ['verilog', 'risc-v', 'python', 'c++'], '2017': ['verilog', 'c', 'vhdl', 'python'], '2016': ['open hardware', 'fpga', 'compiler', 'python', 'javascript']}}
 
-{'FreeType': {'2020': ['c', 'gnu make', 'gnu autotools', 'python', 'fonts'], '2019': ['c', 'gnu make', 'gnu autotools', 'python', 'fonts']}}
+{'FreeType': {'2020': ['c', 'gnu make', 'gnu autotools', 'python', 'fonts'], '2019': ['c', 'gnu make', 'gnu autotools', 'python', 'fonts'], '2018': ['c', 'gnu make', 'gnu autotools', 'python', 'fonts']}}
 
-{'Gentoo Foundation': {'2020': ['shell', 'bash', 'c/c++', 'python', 'linux'], '2019': ['shell script', 'bash', 'c/c++', 'python', 'linux kernel']}}
+{'Gentoo Foundation': {'2020': ['shell', 'bash', 'c/c++', 'python', 'linux'], '2019': ['shell script', 'bash', 'c/c++', 'python', 'linux kernel'], '2018': ['shell script', 'bash', 'c/c++', 'python', 'linux'], '2017': ['shell', 'c/c++', 'python', 'linux'], '2016': ['shell script', 'c/c++', 'python', 'perl', 'sql']}}
 
 {'GeomScale': {'2020': ['c++', 'r', 'python']}}
 
-{'Global Alliance for Genomics and Health': {'2020': ['java', 'python', 'node.js', 'mongodb', 'spring']}}
+{'Global Alliance for Genomics and Health': {'2020': ['java', 'python', 'node.js', 'mongodb', 'spring'], '2018': ['java', 'python', 'cloud', 'c/c++', 'mongodb'], '2017': ['python', 'java', 'sql', 'c++', 'mongodb']}}
 
-{'GNOME': {'2020': ['c', 'rust', 'gtk', 'vala', 'python'], '2019': ['c', 'javascript', 'gtk+', 'python', 'rust']}}
+{'GNOME': {'2020': ['c', 'rust', 'gtk', 'vala', 'python'], '2019': ['c', 'javascript', 'gtk+', 'python', 'rust'], '2018': ['c', 'python', 'javascript', 'gtk+', 'gobject'], '2017': ['c', 'python', 'gtk+', 'javascript', 'gobject'], '2016': ['c', 'python', 'javascript', 'gtk+']}}
 
-{'GNU Radio': {'2020': ['python', 'c++', 'qt'], '2019': ['python', 'c++', 'qt', 'android']}}
+{'GNU Radio': {'2020': ['python', 'c++', 'qt'], '2019': ['python', 'c++', 'qt', 'android'], '2018': ['c++', 'python', 'simd', 'qt'], '2017': ['software defined radio', 'c++', 'python', 'dsp'], '2016': ['c++', 'python', 'software radio', 'dsp', 'rf']}}
 
 {'Hydra Ecosystem': {'2020': ['python', 'rest', 'apis', 'hydra'], '2019': ['python', 'redis', 'flask', 'javascript', 'sql']}}
 
-{'INCF': {'2020': ['python', 'c/c++', 'java', 'tensorflow', 'javascript'], '2019': ['python', 'javascript', 'jupyter', 'c++', 'xml']}}
+{'INCF': {'2020': ['python', 'c/c++', 'java', 'tensorflow', 'javascript'], '2019': ['python', 'javascript', 'jupyter', 'c++', 'xml'], '2018': ['python', 'c/c++', 'javascript', 'cuda', 'xml'], '2017': ['c++', 'python', 'java', 'xml', 'gpu']}}
 
-{'Inkscape': {'2020': ['c++', 'svg', 'gtk', 'python'], '2019': ['svg', 'css', 'c++11', 'gtk', 'python']}}
+{'Inkscape': {'2020': ['c++', 'svg', 'gtk', 'python'], '2019': ['svg', 'css', 'c++11', 'gtk', 'python'], '2018': ['svg', 'css', 'c++11', 'python', 'gtk+'], '2017': ['svg', 'css', 'c++', 'c++11', 'python'], '2016': ['c++', 'python', 'svg', 'css', 'gtk+']}}
 
-{'Internet Archive': {'2020': ['javascript', 'python'], '2019': ['python', 'javascript', 'node.js', 'php', 'elasticsearch']}}
+{'Internet Archive': {'2020': ['javascript', 'python'], '2019': ['python', 'javascript', 'node.js', 'php', 'elasticsearch'], '2017': ['python', 'javascript']}}
 
-{'JdeRobot - Universidad Rey Juan Carlos': {'2020': ['ros', 'gazebo', 'python', 'c/c++', 'opencv'], '2019': ['ros', 'gazebo', 'python', 'c/c++', 'opencv']}}
+{'JdeRobot - Universidad Rey Juan Carlos': {'2020': ['ros', 'gazebo', 'python', 'c/c++', 'opencv'], '2019': ['ros', 'gazebo', 'python', 'c/c++', 'opencv'], '2018': ['ros', 'python', 'c++', 'gazebo', 'opencv'], '2017': ['python', 'c/c++', 'ros', 'gazebo']}}
 
 {'Kodi Foundation': {'2020': ['ffmpeg', 'python', 'c++', 'sqlite', 'mysql'], '2019': ['c++', 'ffmpeg', 'sqlite', 'mysql', 'python']}}
 
@@ -86,7 +86,7 @@
 
 {'Libre Space Foundation': {'2020': ['python', 'django', 'sdr', 'embedded', 'space applications'], '2019': ['python', 'django', 'arduino', 'raspberry pi', 'c/c++']}}
 
-{'LibreOffice': {'2020': ['c++', 'python', 'java'], '2019': ['c++', 'python', 'java']}}
+{'LibreOffice': {'2020': ['c++', 'python', 'java'], '2019': ['c++', 'python', 'java'], '2018': ['c++', 'java', 'python'], '2017': ['c++', 'python', 'java'], '2016': ['c++', 'python', 'java', 'android', 'opengl']}}
 
 {'libvirt': {'2020': ['kvm', 'xen', 'hypervisor', 'c', 'python']}}
 
@@ -98,103 +98,103 @@
 
 {'Matrix': {'2020': ['python', 'javascript', 'rust', 'go', 'react']}}
 
-{'MBDyn': {'2020': ['c++', 'python']}}
+{'MBDyn': {'2020': ['c++', 'python'], '2017': ['c++', 'python']}}
 
 {'MDAnalysis': {'2020': ['python', 'cython', 'numpy', 'c/c++']}}
 
-{'MetaBrainz Foundation Inc.': {'2020': ['python', 'postgres', 'solr', 'perl', 'spark']}}
+{'MetaBrainz Foundation Inc.': {'2020': ['python', 'postgres', 'solr', 'perl', 'spark'], '2018': ['python', 'perl', 'javascript', 'postgresql', 'react'], '2017': ['postgres', 'perl', 'python', 'javascript', 'bigquery']}}
 
-{'Metasploit': {'2020': ['ruby', 'postgresql', 'python', 'c', 'assembly']}}
+{'Metasploit': {'2020': ['ruby', 'postgresql', 'python', 'c', 'assembly'], '2018': ['ruby', 'postgresql', 'python', 'c', 'assembly']}}
 
 {'MGGG Redistricting Lab': {'2020': ['python', 'javascript', 'gis', 'julia', 'mapping']}}
 
 {'mlpack': {'2020': ['c++', 'python', 'templates', 'machine learning', 'deep learning']}}
 
-{'Mozilla': {'2020': ['javascript', 'rust', 'html5', 'web development', 'python'], '2019': ['javascript', 'python', 'rust', 'c++', 'react']}}
+{'Mozilla': {'2020': ['javascript', 'rust', 'html5', 'web development', 'python'], '2019': ['javascript', 'python', 'rust', 'c++', 'react'], '2018': ['javascript', 'c++', 'rust', 'python', 'css'], '2017': ['js', 'rust', 'html/css', 'c++', 'python'], '2016': ['c++', 'python', 'javascript', 'html', 'rust']}}
 
 {'mypy': {'2020': ['python']}}
 
-{'National Resource for Network Biology (NRNB)': {'2020': ['java', 'javascript', 'python', 'r', 'rest'], '2019': ['java', 'javascript', 'python', 'c++', 'web']}}
+{'National Resource for Network Biology (NRNB)': {'2020': ['java', 'javascript', 'python', 'r', 'rest'], '2019': ['java', 'javascript', 'python', 'c++', 'web'], '2018': ['java', 'javascript', 'python', 'html', 'c/c++'], '2017': ['java', 'javascript', 'python', 'php', 'c++'], '2016': ['c++', 'java', 'javascript', 'php', 'python']}}
 
-{'NumFOCUS': {'2020': ['python', 'c/c++', 'javascript', 'r', 'julia'], '2019': ['python', 'javascript', 'c/c++', 'r']}}
+{'NumFOCUS': {'2020': ['python', 'c/c++', 'javascript', 'r', 'julia'], '2019': ['python', 'javascript', 'c/c++', 'r'], '2018': ['python', 'julia', 'r', 'javascript', 'c++'], '2017': ['python', 'javascript', 'r', 'c/c++'], '2016': ['python', 'javascript', 'julia', 'r']}}
 
 {'NV Access': {'2020': ['python', 'c++', 'ui automation', 'iaccessible2', 'win32 api'], '2019': ['python', 'c++', 'ui automation', 'iaccessible2', 'win32 api']}}
 
 {'Open Bioinformatics Foundation (OBF)': {'2020': ['python', 'javascript', 'c/c++']}}
 
-{'Open Chemistry': {'2020': ['c/c++', 'python', 'javascript', 'opengl', 'html'], '2019': ['c++', 'python', 'opengl', 'javascript', 'html']}}
+{'Open Chemistry': {'2020': ['c/c++', 'python', 'javascript', 'opengl', 'html'], '2019': ['c++', 'python', 'opengl', 'javascript', 'html'], '2018': ['python', 'c++', 'javascript', 'java', 'opengl'], '2017': ['python', 'c++', 'opengl', 'javascript', 'java'], '2016': ['c++', 'opengl', 'python', 'javascript', 'webgl']}}
 
-{'Open Genome Informatics': {'2020': ['neo4j', 'python', 'javascript', 'react', 'r-project']}}
+{'Open Genome Informatics': {'2020': ['neo4j', 'python', 'javascript', 'react', 'r-project'], '2017': ['python', 'java', 'javascript', 'nodejs', 'gwt'], '2016': ['python', 'java', 'html/javascript', 'nodejs', 'gwt']}}
 
-{'Open Source Robotics Foundation': {'2020': ['ros', 'gazebo', 'c++', 'python'], '2019': ['ros', 'gazebo', 'c++', 'python']}}
+{'Open Source Robotics Foundation': {'2020': ['ros', 'gazebo', 'c++', 'python'], '2019': ['ros', 'gazebo', 'c++', 'python'], '2018': ['c/c++', 'python', 'javascript', 'ros', 'gazebo']}}
 
-{'OpenAstronomy': {'2020': ['python', 'julia', 'spark', 'numba', 'javascript']}}
+{'OpenAstronomy': {'2020': ['python', 'julia', 'spark', 'numba', 'javascript'], '2018': ['python', 'julia', 'c++', 'numba'], '2017': ['python', 'julia', 'qt'], '2016': ['python', 'julia', 'c', 'numpy']}}
 
 {'OpenStreetMap': {'2020': ['javascript', 'java', 'python', 'sql', 'docker']}}
 
 {'openSUSE Project': {'2020': ['linux', 'python', 'perl', 'rpm', 'javascript']}}
 
-{'OpenWISP': {'2020': ['python', 'django', 'openwrt', 'javascript', 'lua'], '2019': ['python', 'django', 'javascript', 'ansible', 'openwrt']}}
+{'OpenWISP': {'2020': ['python', 'django', 'openwrt', 'javascript', 'lua'], '2019': ['python', 'django', 'javascript', 'ansible', 'openwrt'], '2018': ['python', 'django', 'javascript', 'openwrt', 'linux'], '2017': ['python', 'django', 'javascript', 'openwrt', 'raspberry pi']}}
 
-{'Oppia Foundation': {'2020': ['angular', 'python', 'css', 'kotlin', 'webpack'], '2019': ['angularjs', 'python', 'javascript', 'app engine', 'css']}}
+{'Oppia Foundation': {'2020': ['angular', 'python', 'css', 'kotlin', 'webpack'], '2019': ['angularjs', 'python', 'javascript', 'app engine', 'css'], '2018': ['angularjs', 'python', 'javascript', 'appengine', 'css'], '2017': ['python', 'google app engine', 'angularjs', 'javascript', 'css'], '2016': ['javascript', 'app engine', 'python', 'css', 'angularjs']}}
 
 {'Orcasound': {'2020': ['elixir', 'react', 'javascript', 'python', 'raspberry pi']}}
 
-{'OSGeo': {'2020': ['c/c++', 'python', 'sql', 'open source databases', 'java'], '2019': ['c/c++', 'python', 'sql', 'open source databases', 'java']}}
+{'OSGeo': {'2020': ['c/c++', 'python', 'sql', 'open source databases', 'java'], '2019': ['c/c++', 'python', 'sql', 'open source databases', 'java'], '2018': ['c/c++', 'standards', 'python', 'sql', 'database'], '2017': ['c++', 'python', 'c', 'sql', 'java']}}
 
-{'OWASP Foundation': {'2020': ['python', 'javascript', '.net', 'node.js'], '2019': ['python', 'java', 'javascript', 'php']}}
+{'OWASP Foundation': {'2020': ['python', 'javascript', '.net', 'node.js'], '2019': ['python', 'java', 'javascript', 'php'], '2018': ['java', 'net', 'ruby', 'javascript', 'python'], '2016': ['python', 'php', 'javascript', 'java', 'html']}}
 
 {'PEcAn Project': {'2020': ['r', 'python', 'docker', 'postgresql', 'kubernetes'], '2019': ['r', 'python', 'postgresql', 'docker', 'singularity']}}
 
 {'Processing Foundation': {'2020': ['python', 'android', 'opengl', 'java', 'javascript']}}
 
-{'Python Software Foundation': {'2020': ['python'], '2019': ['python']}}
+{'Python Software Foundation': {'2020': ['python'], '2019': ['python'], '2018': ['python'], '2017': ['python'], '2016': ['python', 'mercurial']}}
 
-{'Qubes OS': {'2020': ['c', 'python', 'xen', 'shell', 'linux']}}
+{'Qubes OS': {'2020': ['c', 'python', 'xen', 'shell', 'linux'], '2017': ['c', 'python', 'shell', 'xen', 'linux']}}
 
 {'Radare': {'2020': ['c', 'c++', 'python', 'go', 'qt']}}
 
-{'RoboComp': {'2020': ['python', 'c++11', 'component-based development', 'qt', 'opencv'], '2019': ['python', 'c++11', 'component-based development', 'qt', 'opencv']}}
+{'RoboComp': {'2020': ['python', 'c++11', 'component-based development', 'qt', 'opencv'], '2019': ['python', 'c++11', 'component-based development', 'qt', 'opencv'], '2018': ['c/c++', 'python', 'cmake', 'openscenegraph', 'ice - zeroc'], '2017': ['c++', 'cmake', 'python', 'openscenegraph', 'qt']}}
 
-{'RTEMS Project': {'2020': ['c/c++', 'python', 'assembly', 'posix', 'bsd unix'], '2019': ['c/c++', 'python', 'assembly', 'posix', 'bsd unix']}}
+{'RTEMS Project': {'2020': ['c/c++', 'python', 'assembly', 'posix', 'bsd unix'], '2019': ['c/c++', 'python', 'assembly', 'posix', 'bsd unix'], '2018': ['c', 'python', 'posix', 'bsd unix'], '2017': ['c', 'python', 'posix'], '2016': ['c', 'python', 'waf', 'embedded systems']}}
 
 {'SageMath': {'2020': ['python', 'cython'], '2019': ['python', 'cython']}}
 
-{'Samba': {'2020': ['smb', 'cifs', 'c', 'python']}}
+{'Samba': {'2020': ['smb', 'cifs', 'c', 'python'], '2017': ['c', 'python']}}
 
 {'SCoRe Lab': {'2020': ['python', 'mobile', 'cloud', 'web development', 'machine learning']}}
 
 {'Shogun': {'2020': ['python', 'c++', 'data science', 'machine learning', 'matlab']}}
 
-{'SPDX': {'2020': ['python', 'java', 'golang', 'node.js', 'xml']}}
+{'SPDX': {'2020': ['python', 'java', 'golang', 'node.js', 'xml'], '2018': ['rdf', 'python', 'java', 'json']}}
 
 {'Ste||ar group': {'2020': ['cpp', 'hpx', 'python', 'hpc', 'cuda']}}
 
-{'Submitty': {'2020': ['php', 'python', 'postgresql', 'c++', 'javascript'], '2019': ['php', 'python', 'postgresql', 'c++', 'javascript']}}
+{'Submitty': {'2020': ['php', 'python', 'postgresql', 'c++', 'javascript'], '2019': ['php', 'python', 'postgresql', 'c++', 'javascript'], '2018': ['python', 'c++', 'databases', 'web/html/css', 'php/javascript/ajax']}}
 
-{'Sugar Labs': {'2020': ['python', 'javascript', 'gtk', 'pygame', 'c'], '2019': ['python', 'javascript']}}
+{'Sugar Labs': {'2020': ['python', 'javascript', 'gtk', 'pygame', 'c'], '2019': ['python', 'javascript'], '2018': ['python', 'javascript', 'gtk+'], '2017': ['python', 'javascript', 'gtk', 'android'], '2016': ['python', 'javascript', 'gtk+']}}
 
 {'SymbiFlow': {'2020': ['c/c++', 'fpga', 'python', 'verilog']}}
 
-{'SymPy': {'2020': ['python'], '2019': ['python']}}
+{'SymPy': {'2020': ['python'], '2019': ['python'], '2018': ['python'], '2017': ['python', 'c++'], '2016': ['python', 'c++']}}
 
 {'Synfig': {'2020': ['c++', 'gtk', 'gtkmm', 'python']}}
 
 {'syslog-ng': {'2020': ['elasticsearch', 'kafka', 'sql', 'python', 'c'], '2019': ['c', 'python', 'rest', 'json', 'elasticsearch']}}
 
-{'TARDIS-SN': {'2020': ['python']}}
+{'TARDIS-SN': {'2020': ['python'], '2016': ['python', 'cython', 'c']}}
 
 {'TensorFlow': {'2020': ['machine learning', 'deep learning', 'python', 'data analysis', 'c/c++'], '2019': ['machine learning', 'deep learning', 'python', 'c/c++', 'data analysis']}}
 
-{'The GNU Project': {'2020': ['c/c++', 'javascript', 'android', 'python', 'scheme']}}
+{'The GNU Project': {'2020': ['c/c++', 'javascript', 'android', 'python', 'scheme'], '2017': ['c', 'guile', 'python']}}
 
-{'The Honeynet Project': {'2020': ['python', 'golang', 'honeypot', 'machine learning', 'networking'], '2019': ['python', 'go', 'c/c++', 'linux', 'data analysis']}}
+{'The Honeynet Project': {'2020': ['python', 'golang', 'honeypot', 'machine learning', 'networking'], '2019': ['python', 'go', 'c/c++', 'linux', 'data analysis'], '2018': ['python 3', 'python', 'golang', 'c/c++', 'machine learning'], '2017': ['python', 'javascript', 'golang', 'android', 'network stack'], '2016': ['android', 'machine learning', 'honeypots', 'python', 'html/javascript']}}
 
-{'The Libreswan Project': {'2020': ['c', 'python'], '2019': ['c', 'nss', 'virtualization', 'python', 'web']}}
+{'The Libreswan Project': {'2020': ['c', 'python'], '2019': ['c', 'nss', 'virtualization', 'python', 'web'], '2018': ['c', 'python', 'shell script', 'qemu'], '2017': ['c', 'python', 'shell script']}}
 
-{'The ns-3 Network Simulator Project': {'2020': ['c/c++', 'python'], '2019': ['c/c++', 'python']}}
+{'The ns-3 Network Simulator Project': {'2020': ['c/c++', 'python'], '2019': ['c/c++', 'python'], '2018': ['c/c++', 'python'], '2017': ['c++', 'python']}}
 
 {'Wikimedia Foundation': {'2020': ['html', 'css', 'python', 'javascript', 'php'], '2019': ['php', 'javascript', 'html', 'css', 'python']}}
 
-{'Zulip': {'2020': ['python', 'react native', 'django', 'typescript', 'electron']}}
+{'Zulip': {'2020': ['python', 'react native', 'django', 'typescript', 'electron'], '2018': ['python', 'django', 'javascript', 'react native', 'electron'], '2017': ['python', 'django', 'javascript', 'react native', 'electron']}}
 
