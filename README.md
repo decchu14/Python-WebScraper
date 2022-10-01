@@ -1,5 +1,5 @@
 # Python-WebScraper
-TITLE :- PyScraper
+TITLE :- PyScraperr
 
 
 DESCRIPTION :- This Repository contains the Script to legally scrape websites using Python and BeautifullSoup Library.
